@@ -1,1 +1,21 @@
-console.log("oi")
+var NomeDoHeroi = "Reyna"
+var Xp = 100001
+if (Xp<=1000)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Ferro") 
+else if(Xp<=2000)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Bronze")
+else if(Xp<=3000)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Prata")
+else if(Xp<=4000)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Ouro")
+else if(Xp<=5000)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Platina")
+else if(Xp<=6000)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Diamante")
+else if(Xp<=7000)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Acendente")
+else if(Xp<=10000)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Imortal")
+else if(Xp>=10001)
+    console.log("Seu Heroi "+ NomeDoHeroi + " Esta no elo Radiante")
+
